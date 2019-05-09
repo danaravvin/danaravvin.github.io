@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+#top-container {
+	border-bottom: 2px solid black;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+/*div:not(#top-container) {
+	margin-left: 35px;
+	margin-right: 35px;
+}*/
+
+#classContainer {
+	margin-left: 360px;
+}
+
+#logo {
+	color: red;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 70px;
+}
+#logo a:visited {
+	color: red;
+}
+
+.links {
+	padding-left: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.links a:visited {
+	color: black;
+	text-decoration: none;
+}
+.links a:hover {
+	color: red;
+	text-decoration: none;
+}
+.links a:link {
+	text-decoration: none;
+}
+
+/*home*/
+
+.home-sections {
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: 10px;
+}
+.section-title {
+	font-family: 'Raleway', sans-serif;
+	/*font-weight: bolder;*/
+	font-size: 35px;
+}
+.home-sections>p {
+	padding-left: 25px;
+	padding-right: 45px;
+}
+
+/*photography*/
+
+.col-container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.p-column {
+	float:left;
+	/*border: 1px solid grey;*/
+	width: 33%;
+	text-align: center;
+}
+.p-photo {
+	width: 95%;
+}
+.p-caption {
+	font-family: 'Raleway', sans-serif;
+	/*font-weight: bolder;*/
+	font-size: 14px;
+}
+
+/*writing*/
+
+.w-section {
+	padding-left: 55px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+.w-title {
+	font-family: 'Raleway', sans-serif;
+	/*font-weight: bolder;*/
+	font-size: 25px;
+}
+.w-body {
+	padding-left: 25px;
+	padding-right: 45px;
+	font-family: 'Raleway', sans-serif;
+	/*font-weight: bolder;*/
+	font-size: 16px;
+}
+
+/*art*/
+
+.a-column {
+	float:left;
+	/*border: 1px solid grey;*/
+	width: 50%;
+	text-align: center;
+}
+.a-photo {
+	width: 55%;
+}
+.a-caption {
+	padding-left: 25px;
+	padding-right: 45px;
+	font-family: 'Raleway', sans-serif;
+	/*font-weight: bolder;*/
+	font-size: 16px;
+}
+
+/*contactMe*/
+
+.c-title {
+	font-family: 'Raleway', sans-serif;
+	/*font-weight: bolder;*/
+	font-size: 35px;
+}
+#contact {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+#c-body {
+	font-family: 'Raleway', sans-serif;
+	/*font-weight: bolder;*/
+	font-size: 18px;
+	text-align: center;
+}
